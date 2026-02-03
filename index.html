@@ -235,9 +235,11 @@
             <div class="toc-item"><strong>8.</strong> Fields vs Particles (Page 9)</div>
             <div class="toc-item"><strong>9.</strong> Reversibility vs Irreversibility (Page 10)</div>
             <div class="toc-item"><strong>10.</strong> Local vs Global Properties (Page 11)</div>
-            <div class="toc-item"><strong>11.</strong> Rates of Change (Page 12)</div>
-            <div class="toc-item"><strong>12.</strong> Dimensional Analysis (Page 13)</div>
-            <div class="toc-item"><strong>13.</strong> Summary and Connections (Page 14)</div>
+            <div class="toc-item"><strong>11.</strong> Inverse Square Laws & Intensity (Page 12)</div>
+            <div class="toc-item"><strong>12.</strong> Rates of Change (Page 13)</div>
+            <div class="toc-item"><strong>13.</strong> Dimensional Analysis (Page 14)</div>
+            <div class="toc-item"><strong>14.</strong> Summary and Connections (Page 15)</div>
+            <div class="toc-item"><strong>15.</strong> Interactive Resources (Page 16)</div>
         </div>
 
         <div class="footer">
@@ -414,6 +416,7 @@
             <h3>The Universal Dichotomy</h3>
             <p><strong>Negative feedback:</strong> Response opposes the perturbation → stability, equilibrium<br>
             <strong>Positive feedback:</strong> Response reinforces the perturbation → instability, runaway</p>
+            <p style="margin-top: 10px;"><strong>🔗 Interactive exploration:</strong> <a href="https://feedbackinphysics.netlify.app/" target="_blank" style="color: #3498db; text-decoration: underline;">feedbackinphysics.netlify.app</a></p>
         </div>
 
         <h3>Negative Feedback: The Restorer</h3>
@@ -593,6 +596,7 @@
         <div class="theme-box">
             <h3>The Most Powerful Tools in Physics</h3>
             <p>Conservation laws state that certain quantities remain constant over time. They provide constraints that must be satisfied regardless of the details of the interactions.</p>
+            <p style="margin-top: 10px;"><strong>🔗 Interactive exploration:</strong> <a href="https://conservationlaws.netlify.app/" target="_blank" style="color: #3498db; text-decoration: underline;">conservationlaws.netlify.app</a></p>
         </div>
 
         <h3>The Big Three</h3>
@@ -1124,17 +1128,151 @@
         </table>
 
         <div class="footer">
-            Core Themes Across Physics | IB Physics | Page 11 of 14
+            Core Themes Across Physics | IB Physics | Page 11 of 16
         </div>
     </div>
 
-    <!-- Page 12: Rates of Change -->
+    <!-- Page 12: Inverse Square Laws -->
     <div class="page">
-        <h2>11. Rates of Change (Derivatives)</h2>
+        <h2>12. Inverse Square Laws: Geometry of Space</h2>
+
+        <div class="theme-box">
+            <h3>Why 1/r²?</h3>
+            <p>When influence spreads uniformly from a point source in 3D space, the intensity must fall as <strong>1/r²</strong>. This is pure geometry: sphere area = 4πr².</p>
+            <p style="margin-top: 10px;"><strong>🔗 Interactive exploration:</strong> <a href="https://tubular-bienenstitch-8f3797.netlify.app/" target="_blank" style="color: #3498db; text-decoration: underline;">Inverse Square Law Interactive</a></p>
+        </div>
+
+        <h3>The Universal Pattern</h3>
+
+        <div class="key-insight">
+            <p>Total flux through any closed surface = constant (from source)<br>
+            Surface area grows as r² → flux per unit area falls as 1/r²</p>
+        </div>
+
+        <h4>Examples Across Physics</h4>
+
+        <table>
+            <tr>
+                <th>Domain</th>
+                <th>Inverse Square Law</th>
+                <th>Physical Meaning</th>
+            </tr>
+            <tr>
+                <td>Gravity</td>
+                <td>F = Gm₁m₂/r²</td>
+                <td>Gravitational force between masses</td>
+            </tr>
+            <tr>
+                <td>Electrostatics</td>
+                <td>F = kq₁q₂/r²</td>
+                <td>Coulomb force between charges</td>
+            </tr>
+            <tr>
+                <td>Light</td>
+                <td>I = P/(4πr²)</td>
+                <td>Intensity from point source</td>
+            </tr>
+            <tr>
+                <td>Sound</td>
+                <td>I ∝ 1/r²</td>
+                <td>Intensity from point source</td>
+            </tr>
+            <tr>
+                <td>Radiation</td>
+                <td>Dose rate ∝ 1/r²</td>
+                <td>Safety distances for radioactive sources</td>
+            </tr>
+        </table>
+
+        <h3>Intensity, Flux, and Pressure</h3>
+
+        <div class="theme-box">
+            <h4>"Per Area" Quantities</h4>
+            <p>These are all <strong>intensive</strong> properties measuring concentration or density of something spread over area.</p>
+            <p style="margin-top: 10px;"><strong>🔗 Interactive exploration:</strong> <a href="https://leelemacjames.github.io/Intensity-Flux-Pressure/" target="_blank" style="color: #3498db; text-decoration: underline;">Intensity, Flux & Pressure</a></p>
+        </div>
+
+        <h4>The Trinity of Intensity</h4>
+
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Definition</th>
+                <th>Units</th>
+                <th>Context</th>
+            </tr>
+            <tr>
+                <td><strong>Pressure</strong></td>
+                <td>P = F/A</td>
+                <td>Pa = N/m²</td>
+                <td>Mechanical force per area</td>
+            </tr>
+            <tr>
+                <td><strong>Irradiance</strong></td>
+                <td>I = Φ/A</td>
+                <td>W/m²</td>
+                <td>Optical power per area</td>
+            </tr>
+            <tr>
+                <td><strong>Flux density</strong></td>
+                <td>B = Φ<sub>B</sub>/A</td>
+                <td>T = Wb/m²</td>
+                <td>Magnetic flux per area</td>
+            </tr>
+        </table>
+
+        <div class="equation">
+            General pattern: Intensity = Total / Area<br>
+            <br>
+            Normal component: Φ = Intensity × A × cos(θ)<br>
+            where θ = angle between normal and field
+        </div>
+
+        <h3>Why Instruments Measure Intensities</h3>
+
+        <div class="key-insight">
+            <p>Sensors have finite area. They measure <strong>power per area</strong> (intensive), not total power (extensive). A light meter measures W/m², not total watts. A microphone measures pressure (force per area), not total force.</p>
+        </div>
+
+        <h3>Gauss's Law Connection</h3>
+
+        <p>For electrostatics, the inverse square law follows from Gauss's Law:</p>
+
+        <div class="equation">
+            Φ = ∮ <strong>E</strong>·d<strong>A</strong> = Q/ε₀<br>
+            <br>
+            For spherical surface: Φ = E(r) × 4πr²<br>
+            Therefore: E(r) = Q/(4πε₀r²) ∝ 1/r²
+        </div>
+
+        <p>The 1/r² behavior is a consequence of:</p>
+        <ul>
+            <li>3D space (sphere area ∝ r²)</li>
+            <li>Point source (isotropic emission)</li>
+            <li>Conservation (total flux constant)</li>
+        </ul>
+
+        <div class="contrast-box">
+            <h4>What if space were 2D?</h4>
+            <p>Circle circumference = 2πr → intensity would fall as <strong>1/r</strong><br>
+            What if space were 4D?<br>
+            Hypersphere area ∝ r³ → intensity would fall as <strong>1/r³</strong></p>
+            <p>The exponent in the inverse power law reflects the <strong>dimensionality of space</strong>.</p>
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 12 of 16
+        </div>
+    </div>
+
+    <!-- Page 13: Rates of Change -->
+    <div class="page">
+        <h2>13. Rates of Change (Derivatives)</h2>
 
         <div class="theme-box">
             <h3>Physics Describes Change</h3>
             <p>Nearly every law in physics is a <strong>differential equation</strong>—a statement about how quantities change. Static descriptions are just special cases where rates happen to be zero.</p>
+            <p style="margin-top: 10px;"><strong>🔗 Interactive exploration:</strong> <a href="https://ratesofchange.netlify.app/" target="_blank" style="color: #3498db; text-decoration: underline;">ratesofchange.netlify.app</a></p>
         </div>
 
         <h3>The Universal Pattern</h3>
@@ -1215,13 +1353,13 @@
         <p><strong>Leibniz notation</strong> makes the variable explicit; <strong>Newton's dot</strong> is compact for time derivatives.</p>
 
         <div class="footer">
-            Core Themes Across Physics | IB Physics | Page 12 of 14
+            Core Themes Across Physics | IB Physics | Page 13 of 16
         </div>
     </div>
 
-    <!-- Page 13: Dimensional Analysis -->
+    <!-- Page 14: Dimensional Analysis -->
     <div class="page">
-        <h2>12. Dimensional Analysis</h2>
+        <h2>14. Dimensional Analysis</h2>
 
         <div class="theme-box">
             <h3>Units as Constraint</h3>
@@ -1329,13 +1467,13 @@
         </table>
 
         <div class="footer">
-            Core Themes Across Physics | IB Physics | Page 13 of 14
+            Core Themes Across Physics | IB Physics | Page 14 of 16
         </div>
     </div>
 
-    <!-- Page 14: Summary -->
+    <!-- Page 15: Summary -->
     <div class="page">
-        <h2>13. Summary: Interconnections</h2>
+        <h2>15. Summary: Interconnections</h2>
 
         <div class="theme-box">
             <h3>The Unity of Physics</h3>
@@ -1386,7 +1524,79 @@
         <p>These themes cut across all of physics because they reflect the <strong>structure of reality itself</strong>. They are not arbitrary human inventions but patterns woven into the fabric of nature. When you master them, you're not just learning physics—you're learning to think like nature thinks.</p>
 
         <div class="footer">
-            Core Themes Across Physics | IB Physics | Page 14 of 14
+            Core Themes Across Physics | IB Physics | Page 15 of 16
+        </div>
+    </div>
+
+    <!-- Page 16: Resources -->
+    <div class="page">
+        <h2>16. Interactive Resources</h2>
+
+        <div class="theme-box">
+            <h3>Online Explorations</h3>
+            <p>These interactive visualizations bring the themes to life. Explore them to deepen your understanding.</p>
+        </div>
+
+        <h3>Core Theme Interactives</h3>
+
+        <div style="margin: 20px 0;">
+            <h4 style="color: #2c3e50; margin-bottom: 10px;">📊 Rates of Change</h4>
+            <p style="margin-left: 20px;"><a href="https://ratesofchange.netlify.app/" target="_blank" style="color: #3498db; font-weight: 600; text-decoration: underline;">ratesofchange.netlify.app</a></p>
+            <p style="margin-left: 20px; color: #666;">Interactive demonstrations of velocity, acceleration, current, EMF, and how derivatives describe all of physics</p>
+        </div>
+
+        <div style="margin: 20px 0;">
+            <h4 style="color: #2c3e50; margin-bottom: 10px;">🔄 Feedback in Physics</h4>
+            <p style="margin-left: 20px;"><a href="https://feedbackinphysics.netlify.app/" target="_blank" style="color: #3498db; font-weight: 600; text-decoration: underline;">feedbackinphysics.netlify.app</a></p>
+            <p style="margin-left: 20px; color: #666;">Explore Lenz's Law, damping, resonance, ice-albedo feedback, and thermistor circuits</p>
+        </div>
+
+        <div style="margin: 20px 0;">
+            <h4 style="color: #2c3e50; margin-bottom: 10px;">⚖️ Conservation Laws</h4>
+            <p style="margin-left: 20px;"><a href="https://conservationlaws.netlify.app/" target="_blank" style="color: #3498db; font-weight: 600; text-decoration: underline;">conservationlaws.netlify.app</a></p>
+            <p style="margin-left: 20px; color: #666;">Interactive demonstrations of energy, momentum, and angular momentum conservation</p>
+        </div>
+
+        <div style="margin: 20px 0;">
+            <h4 style="color: #2c3e50; margin-bottom: 10px;">📐 Inverse Square Laws</h4>
+            <p style="margin-left: 20px;"><a href="https://tubular-bienenstitch-8f3797.netlify.app/" target="_blank" style="color: #3498db; font-weight: 600; text-decoration: underline;">tubular-bienenstitch-8f3797.netlify.app</a></p>
+            <p style="margin-left: 20px; color: #666;">Visualize why 1/r² is universal: gravity, electrostatics, light, sound, radiation</p>
+        </div>
+
+        <div style="margin: 20px 0;">
+            <h4 style="color: #2c3e50; margin-bottom: 10px;">💡 Intensity, Flux & Pressure</h4>
+            <p style="margin-left: 20px;"><a href="https://leelemacjames.github.io/Intensity-Flux-Pressure/" target="_blank" style="color: #3498db; font-weight: 600; text-decoration: underline;">leelemacjames.github.io/Intensity-Flux-Pressure</a></p>
+            <p style="margin-left: 20px; color: #666;">Understand "per area" quantities: mechanical pressure, optical irradiance, magnetic flux density</p>
+        </div>
+
+        <h3>How to Use These Resources</h3>
+
+        <ol style="margin: 20px 0;">
+            <li><strong>Read the theme first</strong> in this document to understand the concepts</li>
+            <li><strong>Explore the interactive</strong> to see the principle in action</li>
+            <li><strong>Adjust parameters</strong> and observe how the system responds</li>
+            <li><strong>Connect to IB questions</strong> — many include exam-style practice</li>
+            <li><strong>Return to this document</strong> to solidify understanding</li>
+        </ol>
+
+        <div class="key-insight">
+            <h4>The Power of Interactive Learning</h4>
+            <p>Static equations on a page can be abstract. Interactive visualizations let you <strong>play with physics</strong>—change variables, observe patterns, develop intuition. Use these tools to transform conceptual understanding into working knowledge.</p>
+        </div>
+
+        <div class="contrast-box">
+            <h4>For Teachers</h4>
+            <p>These resources are designed for:</p>
+            <ul>
+                <li>Classroom demonstrations (project on screen)</li>
+                <li>Student exploration (individual or paired work)</li>
+                <li>Homework assignments (explore before class)</li>
+                <li>Revision sessions (consolidate multiple topics)</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 16 of 16 (Final)
         </div>
     </div>
 </body>
