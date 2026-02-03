@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Themes Across Physics - IB Physics</title>
+    <style>
+        /* Print-optimized styling */
+        @media print {
+            body { margin: 0; padding: 0; }
+            .page { page-break-after: always; }
+            .no-break { page-break-inside: avoid; }
+            header { position: relative; }
+        }
+
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', 'Palatino', serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .page {
+            min-height: 297mm;
+            padding: 20mm;
+            background: white;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2c3e50;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #34495e;
+            margin: 20px 0 12px 0;
+            page-break-after: avoid;
+        }
+
+        h4 {
+            font-size: 16px;
+            color: #16a085;
+            margin: 15px 0 10px 0;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        .theme-box {
+            background: #ecf0f1;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        .contrast-box {
+            background: #fff9e6;
+            border: 2px solid #f39c12;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        .key-insight {
+            background: #e8f5e9;
+            border-left: 5px solid #27ae60;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        .warning-box {
+            background: #ffebee;
+            border-left: 5px solid #e74c3c;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        .equation {
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            text-align: center;
+            padding: 12px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            margin: 12px 0;
+            page-break-inside: avoid;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #34495e;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        ul, ol {
+            margin: 10px 0 10px 25px;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        .pill {
+            display: inline-block;
+            background: #e8f4f8;
+            border: 1px solid #3498db;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 15mm;
+            left: 20mm;
+            right: 20mm;
+            text-align: center;
+            font-size: 12px;
+            color: #7f8c8d;
+            border-top: 1px solid #bdc3c7;
+            padding-top: 10px;
+        }
+
+        .toc {
+            margin: 20px 0;
+        }
+
+        .toc-item {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        em {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1: Title and TOC -->
+    <div class="page">
+        <header>
+            <h1>Core Themes Across Physics</h1>
+            <div class="subtitle">
+                Universal Principles and Fundamental Contrasts in IB Physics
+            </div>
+        </header>
+
+        <div class="key-insight">
+            <h3>Why These Themes Matter</h3>
+            <p>Physics is not merely a collection of isolated topics—gravitation, electricity, thermodynamics, quantum mechanics. Rather, certain <strong>fundamental principles</strong> and <strong>conceptual contrasts</strong> appear repeatedly across all domains. Mastering these cross-cutting themes reveals the deep unity of physics and provides powerful tools for problem-solving and understanding.</p>
+        </div>
+
+        <div class="theme-box">
+            <h3>The Power of Universal Principles</h3>
+            <p>When you recognize that <em>superposition</em> governs everything from adding forces to wave interference, or that <em>feedback mechanisms</em> explain both planetary orbits and climate systems, you gain insight that transcends individual topics. These themes are the skeleton upon which the body of physics is built.</p>
+        </div>
+
+        <h2>Table of Contents</h2>
+        <div class="toc">
+            <div class="toc-item"><strong>1.</strong> Intensive vs Extensive Properties (Page 2)</div>
+            <div class="toc-item"><strong>2.</strong> Linear vs Nonlinear Systems (Page 3)</div>
+            <div class="toc-item"><strong>3.</strong> Feedback and Control (Page 4)</div>
+            <div class="toc-item"><strong>4.</strong> Superposition and Linearity (Page 5)</div>
+            <div class="toc-item"><strong>5.</strong> Conservation Laws (Page 6)</div>
+            <div class="toc-item"><strong>6.</strong> Symmetry and Invariance (Page 7)</div>
+            <div class="toc-item"><strong>7.</strong> Quantization vs Continuity (Page 8)</div>
+            <div class="toc-item"><strong>8.</strong> Fields vs Particles (Page 9)</div>
+            <div class="toc-item"><strong>9.</strong> Reversibility vs Irreversibility (Page 10)</div>
+            <div class="toc-item"><strong>10.</strong> Local vs Global Properties (Page 11)</div>
+            <div class="toc-item"><strong>11.</strong> Rates of Change (Page 12)</div>
+            <div class="toc-item"><strong>12.</strong> Dimensional Analysis (Page 13)</div>
+            <div class="toc-item"><strong>13.</strong> Summary and Connections (Page 14)</div>
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 1 of 14
+        </div>
+    </div>
+
+    <!-- Page 2: Intensive vs Extensive -->
+    <div class="page">
+        <h2>1. Intensive vs Extensive Properties</h2>
+
+        <div class="theme-box">
+            <h3>The Fundamental Distinction</h3>
+            <p><strong>Extensive properties</strong> scale with the size of the system—double the system, double the property. <strong>Intensive properties</strong> do not—they characterize the state independent of system size.</p>
+        </div>
+
+        <div class="contrast-box">
+            <h4>The Doubling Test</h4>
+            <p>Imagine combining two identical systems into one. Which properties double?</p>
+            <ul>
+                <li><strong>Extensive:</strong> Volume, mass, energy, entropy, charge, momentum</li>
+                <li><strong>Intensive:</strong> Temperature, pressure, density, concentration</li>
+            </ul>
+        </div>
+
+        <h3>Physical Examples</h3>
+
+        <table>
+            <tr>
+                <th>Domain</th>
+                <th>Extensive</th>
+                <th>Intensive</th>
+            </tr>
+            <tr>
+                <td>Thermodynamics</td>
+                <td>U (internal energy), V (volume), S (entropy)</td>
+                <td>T (temperature), P (pressure), ρ (density)</td>
+            </tr>
+            <tr>
+                <td>Mechanics</td>
+                <td>m (mass), p (momentum), KE (kinetic energy)</td>
+                <td>v (velocity), a (acceleration)</td>
+            </tr>
+            <tr>
+                <td>Electricity</td>
+                <td>Q (charge), I (current)</td>
+                <td>V (voltage), E (field strength)</td>
+            </tr>
+            <tr>
+                <td>Gravitation</td>
+                <td>M (mass)</td>
+                <td>g (field strength), Φ (potential)</td>
+            </tr>
+        </table>
+
+        <div class="key-insight">
+            <h4>Microscopic → Macroscopic Bridge</h4>
+            <p>Intensive properties are typically <strong>averages</strong> over microscopic quantities:</p>
+            <ul>
+                <li>Temperature T ∝ ⟨kinetic energy⟩</li>
+                <li>Pressure P ∝ ⟨momentum transfer⟩ per area</li>
+            </ul>
+            <p>Extensive properties are <strong>sums</strong>:</p>
+            <ul>
+                <li>Internal energy U = Σ(KE + PE) over all particles</li>
+                <li>Entropy S = k<sub>B</sub> ln(Ω) — depends on total number of microstates</li>
+            </ul>
+        </div>
+
+        <div class="equation">
+            First Law of Thermodynamics: ΔU = Q − W<br>
+            All terms are extensive (scale with system size)
+        </div>
+
+        <div class="warning-box">
+            <h4>Common Confusion</h4>
+            <p><strong>Density ρ = m/V</strong> is intensive (ratio of two extensive quantities). <strong>Specific heat capacity c</strong> is intensive (heat capacity per unit mass). Always check: does it change when you double the system?</p>
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 2 of 14
+        </div>
+    </div>
+
+    <!-- Page 3: Linear vs Nonlinear -->
+    <div class="page">
+        <h2>2. Linear vs Nonlinear Systems</h2>
+
+        <div class="theme-box">
+            <h3>The Linearity Test</h3>
+            <p>A system is <strong>linear</strong> if it satisfies:</p>
+            <ol>
+                <li><strong>Scaling:</strong> input × a → output × a</li>
+                <li><strong>Additivity:</strong> input₁ + input₂ → output₁ + output₂</li>
+            </ol>
+            <p>If either fails, the system is <strong>nonlinear</strong>.</p>
+        </div>
+
+        <h3>Why Linearity Matters</h3>
+        <p>Linear systems are mathematically tractable. We can solve them, predict them, and use <strong>superposition</strong> to build complex solutions from simple ones. Nearly all fundamental physics (Maxwell's equations, Schrödinger equation, wave equation, Newton's F=ma) is linear in the relevant variables.</p>
+
+        <div class="contrast-box">
+            <h4>Linear Systems</h4>
+            <ul>
+                <li><strong>Newton's Second Law:</strong> F = ma (forces add linearly)</li>
+                <li><strong>Coulomb's Law:</strong> Electric fields superpose</li>
+                <li><strong>Wave Equation:</strong> Solutions add (interference)</li>
+                <li><strong>Ohm's Law:</strong> V = IR (voltage scales linearly)</li>
+                <li><strong>Hooke's Law:</strong> F = −kx (small displacements)</li>
+            </ul>
+        </div>
+
+        <div class="warning-box">
+            <h4>Nonlinear Systems</h4>
+            <ul>
+                <li><strong>Large-angle pendulum:</strong> sin(θ) ≠ θ</li>
+                <li><strong>Turbulent flow:</strong> Navier-Stokes nonlinearity → chaos</li>
+                <li><strong>Relativistic velocity addition:</strong> u ⊕ v ≠ u + v</li>
+                <li><strong>Semiconductor diodes:</strong> Exponential I-V curve</li>
+                <li><strong>Material saturation:</strong> Magnetic hysteresis</li>
+            </ul>
+        </div>
+
+        <h3>Mathematical Signatures</h3>
+
+        <table>
+            <tr>
+                <th>Property</th>
+                <th>Linear</th>
+                <th>Nonlinear</th>
+            </tr>
+            <tr>
+                <td>Equation form</td>
+                <td>y = ax + b</td>
+                <td>y = ax² or y = e<sup>x</sup></td>
+            </tr>
+            <tr>
+                <td>Superposition</td>
+                <td>Solutions add</td>
+                <td>Solutions don't add</td>
+            </tr>
+            <tr>
+                <td>Behavior</td>
+                <td>Predictable, stable</td>
+                <td>Can exhibit chaos, bifurcation</td>
+            </tr>
+            <tr>
+                <td>Analytical solution</td>
+                <td>Often exists</td>
+                <td>Rarely exists (numerical methods)</td>
+            </tr>
+        </table>
+
+        <div class="key-insight">
+            <h4>The Small Displacement Approximation</h4>
+            <p>Many systems are linear <em>only for small perturbations</em>. The pendulum equation mθ̈ = −mg sin(θ) is nonlinear, but for small θ, sin(θ) ≈ θ, giving the linear SHM equation θ̈ + (g/L)θ = 0.</p>
+        </div>
+
+        <div class="equation">
+            Linear: y(x₁ + x₂) = y(x₁) + y(x₂)<br>
+            Nonlinear: y(x₁ + x₂) ≠ y(x₁) + y(x₂)
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 3 of 14
+        </div>
+    </div>
+
+    <!-- Page 4: Feedback and Control -->
+    <div class="page">
+        <h2>3. Feedback and Control</h2>
+
+        <div class="theme-box">
+            <h3>The Universal Dichotomy</h3>
+            <p><strong>Negative feedback:</strong> Response opposes the perturbation → stability, equilibrium<br>
+            <strong>Positive feedback:</strong> Response reinforces the perturbation → instability, runaway</p>
+        </div>
+
+        <h3>Negative Feedback: The Restorer</h3>
+
+        <div class="key-insight">
+            <p><strong>Pattern:</strong> Perturbation → Opposition → Return to equilibrium</p>
+            <div class="equation">
+                dx/dt = −k(x − x<sub>eq</sub>)<br>
+                Solution: Exponential approach to equilibrium
+            </div>
+        </div>
+
+        <h4>Examples Across Physics</h4>
+        <ul>
+            <li><strong>Lenz's Law:</strong> Induced EMF opposes flux change (ε = −dΦ/dt)</li>
+            <li><strong>Mechanical damping:</strong> Friction opposes motion (F = −bv)</li>
+            <li><strong>Thermistor PTC:</strong> Heats up → R increases → I decreases → self-regulating</li>
+            <li><strong>Stefan-Boltzmann radiation:</strong> Hot object radiates more → cools → stable temperature</li>
+            <li><strong>Le Chatelier's principle:</strong> System opposes imposed changes</li>
+        </ul>
+
+        <h3>Positive Feedback: The Amplifier</h3>
+
+        <div class="warning-box">
+            <p><strong>Pattern:</strong> Perturbation → Reinforcement → Exponential growth/collapse</p>
+            <div class="equation">
+                dx/dt = +kx<br>
+                Solution: Exponential growth or runaway
+            </div>
+        </div>
+
+        <h4>Examples Across Physics</h4>
+        <ul>
+            <li><strong>Ice-albedo feedback:</strong> Warming → ice melts → less reflection → more warming</li>
+            <li><strong>Resonance:</strong> Driving at natural frequency → amplitude grows</li>
+            <li><strong>Audio feedback:</strong> Microphone near speaker → squeal</li>
+            <li><strong>Chain reactions:</strong> Each fission triggers more fissions</li>
+            <li><strong>Thermal runaway:</strong> NTC thermistor heats → R drops → more current → more heat</li>
+        </ul>
+
+        <h3>Stability Requires Negative Feedback</h3>
+
+        <table>
+            <tr>
+                <th>Domain</th>
+                <th>Negative Feedback (Stable)</th>
+                <th>Positive Feedback (Unstable)</th>
+            </tr>
+            <tr>
+                <td>EM</td>
+                <td>Lenz's Law (opposes change)</td>
+                <td>Superconductor flux expulsion</td>
+            </tr>
+            <tr>
+                <td>Mechanical</td>
+                <td>Damping (dissipates energy)</td>
+                <td>Resonance (amplifies)</td>
+            </tr>
+            <tr>
+                <td>Climate</td>
+                <td>Blackbody radiation (cools)</td>
+                <td>Ice-albedo (accelerates melting)</td>
+            </tr>
+            <tr>
+                <td>Electronic</td>
+                <td>Op-amp negative feedback</td>
+                <td>Oscillator circuits</td>
+            </tr>
+        </table>
+
+        <div class="key-insight">
+            <h4>Universal Principle</h4>
+            <p>Every stable system has <strong>dominant negative feedback</strong>. Positive feedbacks exist but must be weaker or transient. When positive feedback dominates, systems exhibit tipping points, phase transitions, and catastrophic failure.</p>
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 4 of 14
+        </div>
+    </div>
+
+    <!-- Page 5: Superposition and Linearity -->
+    <div class="page">
+        <h2>4. Superposition and Linearity</h2>
+
+        <div class="theme-box">
+            <h3>The Principle of Superposition</h3>
+            <p>When multiple inputs act on a <strong>linear</strong> system, the total output is the <strong>sum</strong> of the outputs from each input acting alone.</p>
+        </div>
+
+        <h3>Why We Can Add Things in Physics</h3>
+
+        <div class="key-insight">
+            <p>Superposition is not an isolated principle—it's a <strong>consequence of linearity</strong>. Whenever a system obeys linear equations, superposition follows automatically.</p>
+        </div>
+
+        <h4>Forces (Newton's Laws)</h4>
+        <div class="equation">
+            F<sub>net</sub> = F₁ + F₂ + F₃ + ...<br>
+            Because F = ma is linear in F
+        </div>
+
+        <h4>Electric Fields (Coulomb's Law)</h4>
+        <div class="equation">
+            E<sub>total</sub>(r) = E₁(r) + E₂(r) + ...<br>
+            Fields add vectorially at each point
+        </div>
+
+        <h4>Waves (Wave Equation)</h4>
+        <div class="equation">
+            y<sub>total</sub>(x,t) = y₁(x,t) + y₂(x,t)<br>
+            Constructive/destructive interference
+        </div>
+
+        <h4>Circuits (Kirchhoff's Laws)</h4>
+        <div class="equation">
+            At a node: ΣI<sub>in</sub> = ΣI<sub>out</sub><br>
+            Currents add algebraically
+        </div>
+
+        <h3>Standing Waves: Superposition in Action</h3>
+
+        <p>A powerful example: counter-propagating waves create standing waves through superposition.</p>
+
+        <div class="equation">
+            y₁ = A sin(kx − ωt) [forward wave]<br>
+            y₂ = A sin(kx + ωt) [backward wave]<br>
+            <br>
+            y<sub>total</sub> = y₁ + y₂ = 2A sin(kx) cos(ωt)<br>
+            <br>
+            Standing wave! Nodes where sin(kx) = 0
+        </div>
+
+        <h3>Where Superposition Fails</h3>
+
+        <div class="warning-box">
+            <h4>Nonlinear Systems</h4>
+            <p>In nonlinear systems, superposition breaks down:</p>
+            <ul>
+                <li>Large-angle pendulum: θ₁ + θ₂ doesn't give period(θ₁) + period(θ₂)</li>
+                <li>Turbulent flow: velocity fields don't add linearly</li>
+                <li>Saturating amplifier: output(input₁ + input₂) ≠ output(input₁) + output(input₂)</li>
+            </ul>
+        </div>
+
+        <table>
+            <tr>
+                <th>Linear System</th>
+                <th>Superposition Valid</th>
+            </tr>
+            <tr>
+                <td>Small oscillations (SHM)</td>
+                <td>✓ Solutions add</td>
+            </tr>
+            <tr>
+                <td>Electromagnetic waves</td>
+                <td>✓ Interference patterns</td>
+            </tr>
+            <tr>
+                <td>Quantum wavefunctions</td>
+                <td>✓ Linear Schrödinger equation</td>
+            </tr>
+            <tr>
+                <td>Large-angle pendulum</td>
+                <td>✗ Nonlinear restoring force</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 5 of 14
+        </div>
+    </div>
+
+    <!-- Page 6: Conservation Laws -->
+    <div class="page">
+        <h2>5. Conservation Laws</h2>
+
+        <div class="theme-box">
+            <h3>The Most Powerful Tools in Physics</h3>
+            <p>Conservation laws state that certain quantities remain constant over time. They provide constraints that must be satisfied regardless of the details of the interactions.</p>
+        </div>
+
+        <h3>The Big Three</h3>
+
+        <h4>1. Conservation of Energy</h4>
+        <div class="equation">
+            E<sub>total</sub> = KE + PE + internal energy = constant (isolated system)
+        </div>
+        <p>Energy can transform between forms but the total never changes. This is the First Law of Thermodynamics: ΔU = Q − W</p>
+
+        <h4>2. Conservation of Momentum</h4>
+        <div class="equation">
+            p<sub>total</sub> = Σmv = constant (no external forces)
+        </div>
+        <p>In collisions, explosions, or any interaction, total momentum before = total momentum after.</p>
+
+        <h4>3. Conservation of Angular Momentum</h4>
+        <div class="equation">
+            L<sub>total</sub> = Σmvr = constant (no external torques)
+        </div>
+        <p>Explains planetary orbits, spinning ice skaters, gyroscopes.</p>
+
+        <h3>Other Conservation Laws</h3>
+
+        <table>
+            <tr>
+                <th>Quantity</th>
+                <th>Context</th>
+                <th>Key Insight</th>
+            </tr>
+            <tr>
+                <td>Charge</td>
+                <td>All interactions</td>
+                <td>Total charge never changes</td>
+            </tr>
+            <tr>
+                <td>Mass-energy</td>
+                <td>Relativity</td>
+                <td>E = mc² includes rest mass</td>
+            </tr>
+            <tr>
+                <td>Baryon number</td>
+                <td>Particle physics</td>
+                <td>Protons cannot decay (observed)</td>
+            </tr>
+            <tr>
+                <td>Lepton number</td>
+                <td>Particle physics</td>
+                <td>Electrons + neutrinos conserved</td>
+            </tr>
+        </table>
+
+        <div class="key-insight">
+            <h4>Noether's Theorem: Symmetry → Conservation</h4>
+            <p>Every conservation law corresponds to a <strong>symmetry</strong> of nature:</p>
+            <ul>
+                <li><strong>Time translation symmetry</strong> → Energy conservation</li>
+                <li><strong>Space translation symmetry</strong> → Momentum conservation</li>
+                <li><strong>Rotational symmetry</strong> → Angular momentum conservation</li>
+            </ul>
+            <p>Conservation laws are not coincidences—they reflect the geometric structure of spacetime.</p>
+        </div>
+
+        <h3>Why Conservation Laws Are Powerful</h3>
+
+        <p>You can solve problems <strong>without knowing the details</strong> of forces or interactions:</p>
+        <ul>
+            <li>Collision? Use momentum conservation, no need for contact forces</li>
+            <li>Orbital mechanics? Use angular momentum + energy, no need for F(r) at each instant</li>
+            <li>Chemical reaction? Use charge conservation to balance equations</li>
+        </ul>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 6 of 14
+        </div>
+    </div>
+
+    <!-- Page 7: Symmetry and Invariance -->
+    <div class="page">
+        <h2>6. Symmetry and Invariance</h2>
+
+        <div class="theme-box">
+            <h3>Physics is the Same Everywhere</h3>
+            <p>Fundamental laws do not depend on where you are, when you perform the experiment, or how you orient your apparatus. This is <strong>invariance</strong> under transformations.</p>
+        </div>
+
+        <h3>Types of Symmetry</h3>
+
+        <h4>Spatial Translation Symmetry</h4>
+        <p>Physics is the same at different locations → <strong>Momentum conservation</strong></p>
+        <div class="equation">
+            F = ma works in London, Tokyo, on Mars
+        </div>
+
+        <h4>Temporal Translation Symmetry</h4>
+        <p>Physics is the same at different times → <strong>Energy conservation</strong></p>
+        <div class="equation">
+            Laws today = laws yesterday = laws 1 billion years ago
+        </div>
+
+        <h4>Rotational Symmetry</h4>
+        <p>Physics is the same in all directions → <strong>Angular momentum conservation</strong></p>
+        <div class="equation">
+            No "preferred" direction in empty space
+        </div>
+
+        <h4>Gauge Symmetry</h4>
+        <p>Electromagnetic potential can be shifted by a constant → <strong>Charge conservation</strong></p>
+        <div class="equation">
+            V → V + constant doesn't change physics
+        </div>
+
+        <h3>Invariance in Special Relativity</h3>
+
+        <div class="key-insight">
+            <h4>The Speed of Light is Invariant</h4>
+            <p>All inertial observers measure <span class="pill">c = 3 × 10⁸ m/s</span> regardless of their motion. This seemingly innocuous statement leads to:</p>
+            <ul>
+                <li>Time dilation</li>
+                <li>Length contraction</li>
+                <li>E = mc²</li>
+                <li>Spacetime as a unified structure</li>
+            </ul>
+        </div>
+
+        <h3>Broken Symmetries</h3>
+
+        <p>Not all symmetries hold in nature:</p>
+
+        <table>
+            <tr>
+                <th>Symmetry</th>
+                <th>Status</th>
+                <th>Consequence</th>
+            </tr>
+            <tr>
+                <td>CPT (combined)</td>
+                <td>Exact</td>
+                <td>Fundamental theorem</td>
+            </tr>
+            <tr>
+                <td>Parity (P)</td>
+                <td>Broken (weak force)</td>
+                <td>Left-right asymmetry in beta decay</td>
+            </tr>
+            <tr>
+                <td>Charge conjugation (C)</td>
+                <td>Broken (weak force)</td>
+                <td>Matter-antimatter asymmetry</td>
+            </tr>
+            <tr>
+                <td>Time reversal (T)</td>
+                <td>Broken (weak force)</td>
+                <td>Arrow of time in kaon decay</td>
+            </tr>
+        </table>
+
+        <div class="warning-box">
+            <h4>Spontaneous Symmetry Breaking</h4>
+            <p>Even when laws are symmetric, the <strong>ground state</strong> may not be. Example: a pencil balanced on its tip has rotational symmetry, but when it falls, it picks a direction—symmetry is "spontaneously broken."</p>
+        </div>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 7 of 14
+        </div>
+    </div>
+
+    <!-- Page 8: Quantization vs Continuity -->
+    <div class="page">
+        <h2>7. Quantization vs Continuity</h2>
+
+        <div class="theme-box">
+            <h3>Discrete vs Continuous</h3>
+            <p>Classical physics assumed all quantities vary <strong>continuously</strong> (real numbers ℝ). Quantum mechanics revealed that nature at small scales is <strong>discrete</strong> (integers ℤ).</p>
+        </div>
+
+        <h3>What is Quantized?</h3>
+
+        <h4>Energy Levels (Atoms)</h4>
+        <div class="equation">
+            E<sub>n</sub> = −13.6 eV × Z²/n²  (n = 1, 2, 3, ...)<br>
+            Only discrete values allowed
+        </div>
+
+        <h4>Angular Momentum</h4>
+        <div class="equation">
+            L = nℏ  where ℏ = h/2π<br>
+            Bohr's quantization condition
+        </div>
+
+        <h4>Charge</h4>
+        <div class="equation">
+            Q = ne  where e = 1.602 × 10⁻¹⁹ C<br>
+            Charge comes in integer multiples of e
+        </div>
+
+        <h4>Photons</h4>
+        <div class="equation">
+            E = hν<br>
+            Light comes in discrete packets
+        </div>
+
+        <h3>What Remains Continuous?</h3>
+
+        <ul>
+            <li><strong>Position:</strong> Particles can be anywhere (though probability is quantized)</li>
+            <li><strong>Time:</strong> Still a continuous parameter</li>
+            <li><strong>Frequency/Wavelength:</strong> Continuous values (but energy = hν is discrete)</li>
+            <li><strong>Temperature:</strong> Macroscopic average, effectively continuous</li>
+        </ul>
+
+        <div class="contrast-box">
+            <h4>The Quantum-Classical Boundary</h4>
+            <p>Quantization matters when:</p>
+            <div class="equation">
+                Action ~ ℏ  or  Energy spacing ~ k<sub>B</sub>T
+            </div>
+            <p>For macroscopic systems, quantum effects are negligible because ℏ is tiny. The discreteness "washes out" into apparent continuity.</p>
+        </div>
+
+        <h3>Photons: Bridging Discrete and Continuous</h3>
+
+        <div class="key-insight">
+            <p>A photon is a <strong>wave packet</strong>—it has:</p>
+            <ul>
+                <li><strong>Continuous frequency ν</strong> (wave property, ∈ ℝ)</li>
+                <li><strong>Discrete energy E = hν</strong> (particle property, quantized)</li>
+            </ul>
+            <p>This wave-particle duality is central to quantum mechanics.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Classical</th>
+                <th>Quantum</th>
+            </tr>
+            <tr>
+                <td>Orbits at any radius</td>
+                <td>Only r<sub>n</sub> = n²a₀/Z allowed</td>
+            </tr>
+            <tr>
+                <td>Continuous energy</td>
+                <td>Discrete energy levels</td>
+            </tr>
+            <tr>
+                <td>EM waves with any intensity</td>
+                <td>Photons with E = hν</td>
+            </tr>
+            <tr>
+                <td>Predictable trajectories</td>
+                <td>Probability amplitudes</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 8 of 14
+        </div>
+    </div>
+
+    <!-- Page 9: Fields vs Particles -->
+    <div class="page">
+        <h2>8. Fields vs Particles</h2>
+
+        <div class="theme-box">
+            <h3>Two Descriptions of Reality</h3>
+            <p>Physics uses two complementary pictures: <strong>fields</strong> (smooth functions in space) and <strong>particles</strong> (localized objects). Modern physics reveals they are two aspects of the same underlying reality.</p>
+        </div>
+
+        <h3>The Particle Picture</h3>
+
+        <p><strong>Particles</strong> are discrete, localized objects with definite properties (mass, charge, momentum). They follow trajectories and obey Newton's laws (classical) or Schrödinger's equation (quantum).</p>
+
+        <h4>Examples</h4>
+        <ul>
+            <li>Electrons, protons, neutrons (matter particles)</li>
+            <li>Photons (light particles)</li>
+            <li>Planets, projectiles (classical particles)</li>
+        </ul>
+
+        <h3>The Field Picture</h3>
+
+        <p><strong>Fields</strong> are functions that assign a value (scalar, vector, or tensor) to every point in space. They extend throughout space and carry energy and momentum.</p>
+
+        <h4>Examples</h4>
+        <ul>
+            <li>Electric field <strong>E</strong>(r): force per unit charge at each point</li>
+            <li>Magnetic field <strong>B</strong>(r): influence on moving charges</li>
+            <li>Gravitational field g(r): acceleration at each point</li>
+            <li>Temperature field T(x,y,z): temperature at each location</li>
+        </ul>
+
+        <div class="equation">
+            Field intensity at distance r: I ∝ 1/r²<br>
+            (Inverse square law for point sources)
+        </div>
+
+        <h3>Field → Particle Connection</h3>
+
+        <div class="key-insight">
+            <h4>Quantum Field Theory</h4>
+            <p>In the full quantum description, particles are <strong>excitations</strong> (quanta) of underlying fields:</p>
+            <ul>
+                <li><strong>Photon:</strong> Quantum of electromagnetic field</li>
+                <li><strong>Electron:</strong> Quantum of electron field</li>
+                <li><strong>Graviton (hypothetical):</strong> Quantum of gravitational field</li>
+            </ul>
+            <p>Fields are fundamental; particles emerge as localized disturbances in these fields.</p>
+        </div>
+
+        <h3>When to Use Which Picture</h3>
+
+        <table>
+            <tr>
+                <th>Situation</th>
+                <th>Best Picture</th>
+                <th>Why</th>
+            </tr>
+            <tr>
+                <td>Collision of billiard balls</td>
+                <td>Particles</td>
+                <td>Localized, discrete interactions</td>
+            </tr>
+            <tr>
+                <td>Light interference</td>
+                <td>Wave/Field</td>
+                <td>Extended, superposition</td>
+            </tr>
+            <tr>
+                <td>Photoelectric effect</td>
+                <td>Particles (photons)</td>
+                <td>Discrete energy packets</td>
+            </tr>
+            <tr>
+                <td>Electromagnetic induction</td>
+                <td>Field</td>
+                <td>Changing flux induces EMF</td>
+            </tr>
+            <tr>
+                <td>Electron in atom</td>
+                <td>Wave/Field</td>
+                <td>Probability amplitude, orbitals</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 9 of 14
+        </div>
+    </div>
+
+    <!-- Page 10: Reversibility vs Irreversibility -->
+    <div class="page">
+        <h2>9. Reversibility vs Irreversibility</h2>
+
+        <div class="theme-box">
+            <h3>Time's Arrow</h3>
+            <p>Most fundamental laws are <strong>time-reversible</strong>: they work equally well forward or backward in time. Yet the world we observe is profoundly <strong>irreversible</strong>. Why?</p>
+        </div>
+
+        <h3>Time-Reversible Laws</h3>
+
+        <h4>Newton's Laws</h4>
+        <div class="equation">
+            F = ma  →  If you reverse time (t → −t), v → −v, a → −a<br>
+            Equation still holds: F = m(−a) with (−v)
+        </div>
+
+        <h4>Maxwell's Equations</h4>
+        <p>Electromagnetic waves work equally well backward in time (mathematically).</p>
+
+        <h4>Schrödinger Equation</h4>
+        <p>Quantum evolution is unitary and reversible.</p>
+
+        <h3>Irreversible Processes</h3>
+
+        <p>Yet we observe:</p>
+        <ul>
+            <li>Hot coffee cools, never spontaneously heats up</li>
+            <li>Broken eggs don't reassemble</li>
+            <li>Ink diffuses in water, never un-mixes</li>
+            <li>Entropy increases: ΔS ≥ 0</li>
+        </ul>
+
+        <div class="key-insight">
+            <h4>The Second Law of Thermodynamics</h4>
+            <div class="equation">
+                ΔS<sub>universe</sub> ≥ 0<br>
+                Entropy never decreases in isolated systems
+            </div>
+            <p>This is the <strong>only</strong> fundamental law with a preferred direction of time.</p>
+        </div>
+
+        <h3>Resolution: Statistical Mechanics</h3>
+
+        <p>Irreversibility emerges from <strong>statistics</strong>, not from reversing individual particle motions:</p>
+
+        <div class="contrast-box">
+            <h4>Microscopic vs Macroscopic</h4>
+            <ul>
+                <li><strong>Microscopic:</strong> Individual collisions are reversible</li>
+                <li><strong>Macroscopic:</strong> With ~10²³ particles, returning to initial state is staggeringly improbable</li>
+            </ul>
+            <div class="equation">
+                Probability of spontaneous decrease in entropy ~ e<sup>−ΔS/k<sub>B</sub></sup><br>
+                For macroscopic ΔS, this is effectively zero
+            </div>
+        </div>
+
+        <h3>Exceptions: Tiny Quantum Systems</h3>
+
+        <p>For <strong>small</strong> systems (few particles), fluctuations can temporarily decrease entropy. But averaged over time, entropy still increases.</p>
+
+        <table>
+            <tr>
+                <th>Domain</th>
+                <th>Reversible</th>
+                <th>Irreversible</th>
+            </tr>
+            <tr>
+                <td>Mechanics</td>
+                <td>Elastic collision</td>
+                <td>Inelastic collision (heat generated)</td>
+            </tr>
+            <tr>
+                <td>Thermodynamics</td>
+                <td>Ideal reversible process (Carnot)</td>
+                <td>Real processes (friction, diffusion)</td>
+            </tr>
+            <tr>
+                <td>EM</td>
+                <td>Oscillating charge (reversible)</td>
+                <td>Radiation to infinity (irreversible)</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 10 of 14
+        </div>
+    </div>
+
+    <!-- Page 11: Local vs Global -->
+    <div class="page">
+        <h2>10. Local vs Global Properties</h2>
+
+        <div class="theme-box">
+            <h3>Where is the Information?</h3>
+            <p><strong>Local:</strong> Properties defined at each point in space (fields, densities)<br>
+            <strong>Global:</strong> Properties defined for the entire system (total energy, charge)</p>
+        </div>
+
+        <h3>Local Properties (Fields)</h3>
+
+        <p>These are <strong>functions of position</strong>:</p>
+        <ul>
+            <li><strong>E</strong>(r): Electric field at point r</li>
+            <li><strong>ρ</strong>(r): Charge density at point r</li>
+            <li><strong>T</strong>(x,y,z): Temperature at position (x,y,z)</li>
+            <li><strong>p</strong>(r): Momentum density</li>
+        </ul>
+
+        <div class="equation">
+            Local conservation: ∂ρ/∂t + ∇·<strong>J</strong> = 0<br>
+            (Continuity equation)
+        </div>
+
+        <h3>Global Properties (Integrals)</h3>
+
+        <p>These are <strong>totals over space</strong>:</p>
+        <ul>
+            <li><strong>Q<sub>total</sub></strong> = ∫ρ(r) dV: Total charge</li>
+            <li><strong>E<sub>total</sub></strong> = ∫ε(r) dV: Total energy</li>
+            <li><strong>M<sub>total</sub></strong> = ∫ρ<sub>mass</sub>(r) dV: Total mass</li>
+        </ul>
+
+        <div class="equation">
+            Global conservation: dQ<sub>total</sub>/dt = 0<br>
+            (Charge conservation)
+        </div>
+
+        <h3>Relating Local and Global</h3>
+
+        <div class="key-insight">
+            <h4>Fundamental Connection</h4>
+            <p>Global conservation laws <strong>emerge from</strong> local conservation laws:</p>
+            <div class="equation">
+                If ∂ρ/∂t + ∇·<strong>J</strong> = 0 everywhere<br>
+                Then d/dt ∫ρ dV = 0  (total conserved)
+            </div>
+            <p>Local laws are more fundamental—they encode causality (no action at a distance).</p>
+        </div>
+
+        <h3>Causality and Locality</h3>
+
+        <p>Physics is <strong>local</strong>: events at point A can only directly affect nearby points. Influences propagate through fields at finite speed (≤ c).</p>
+
+        <div class="contrast-box">
+            <h4>Newton's Gravity (Non-local)</h4>
+            <div class="equation">
+                F = Gm₁m₂/r²<br>
+                Acts instantaneously across space (problematic!)
+            </div>
+            <h4>Einstein's Gravity (Local)</h4>
+            <div class="equation">
+                Gravitational field propagates at speed c<br>
+                Described by curvature of spacetime
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Concept</th>
+                <th>Local Form</th>
+                <th>Global Form</th>
+            </tr>
+            <tr>
+                <td>Charge conservation</td>
+                <td>∂ρ/∂t + ∇·<strong>J</strong> = 0</td>
+                <td>Q<sub>total</sub> = constant</td>
+            </tr>
+            <tr>
+                <td>Energy conservation</td>
+                <td>∂u/∂t + ∇·<strong>S</strong> = 0</td>
+                <td>E<sub>total</sub> = constant</td>
+            </tr>
+            <tr>
+                <td>Maxwell's equations</td>
+                <td>∇×<strong>E</strong> = −∂<strong>B</strong>/∂t</td>
+                <td>∮<strong>E</strong>·d<strong>l</strong> = −dΦ/dt</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 11 of 14
+        </div>
+    </div>
+
+    <!-- Page 12: Rates of Change -->
+    <div class="page">
+        <h2>11. Rates of Change (Derivatives)</h2>
+
+        <div class="theme-box">
+            <h3>Physics Describes Change</h3>
+            <p>Nearly every law in physics is a <strong>differential equation</strong>—a statement about how quantities change. Static descriptions are just special cases where rates happen to be zero.</p>
+        </div>
+
+        <h3>The Universal Pattern</h3>
+
+        <div class="equation">
+            [Physical Quantity] = d[Something]/dt
+        </div>
+
+        <h4>Kinematics</h4>
+        <div class="equation">
+            v = dx/dt    (velocity)<br>
+            a = dv/dt = d²x/dt²    (acceleration)
+        </div>
+
+        <h4>Dynamics</h4>
+        <div class="equation">
+            F = dp/dt    (Newton's 2nd Law)<br>
+            τ = dL/dt    (Rotational analogue)
+        </div>
+
+        <h4>Electromagnetism</h4>
+        <div class="equation">
+            I = dQ/dt    (current)<br>
+            ε = −dΦ/dt    (Faraday's Law)<br>
+            V = L(dI/dt)    (inductor)
+        </div>
+
+        <h4>Thermodynamics</h4>
+        <div class="equation">
+            P = dE/dt    (power)<br>
+            dS ≥ dQ/T    (entropy change)
+        </div>
+
+        <h3>Why Derivatives?</h3>
+
+        <div class="key-insight">
+            <p>We observe <strong>changes</strong>, not absolutes:</p>
+            <ul>
+                <li>We don't measure position x; we measure <em>velocity</em> v = dx/dt</li>
+                <li>We don't measure charge Q; we measure <em>current</em> I = dQ/dt</li>
+                <li>Even "static" equilibrium is dynamics with zero rates: dE/dt = 0</li>
+            </ul>
+        </div>
+
+        <h3>Conservation Laws as Zero Derivatives</h3>
+
+        <div class="equation">
+            dp/dt = 0  →  momentum conserved<br>
+            dE/dt = 0  →  energy conserved<br>
+            dL/dt = 0  →  angular momentum conserved
+        </div>
+
+        <h3>Notation: Leibniz vs Newton</h3>
+
+        <table>
+            <tr>
+                <th>Leibniz (d/dt)</th>
+                <th>Newton (dot)</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>dx/dt</td>
+                <td>ẋ</td>
+                <td>Velocity</td>
+            </tr>
+            <tr>
+                <td>d²x/dt²</td>
+                <td>ẍ</td>
+                <td>Acceleration</td>
+            </tr>
+            <tr>
+                <td>dp/dt</td>
+                <td>ṗ</td>
+                <td>Force</td>
+            </tr>
+        </table>
+
+        <p><strong>Leibniz notation</strong> makes the variable explicit; <strong>Newton's dot</strong> is compact for time derivatives.</p>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 12 of 14
+        </div>
+    </div>
+
+    <!-- Page 13: Dimensional Analysis -->
+    <div class="page">
+        <h2>12. Dimensional Analysis</h2>
+
+        <div class="theme-box">
+            <h3>Units as Constraint</h3>
+            <p>Every physical quantity has <strong>dimensions</strong> (L, M, T, etc.). Equations must be dimensionally consistent—you cannot add meters to seconds.</p>
+        </div>
+
+        <h3>The Seven SI Base Dimensions</h3>
+
+        <table>
+            <tr>
+                <th>Dimension</th>
+                <th>Symbol</th>
+                <th>SI Unit</th>
+            </tr>
+            <tr>
+                <td>Length</td>
+                <td>L</td>
+                <td>meter (m)</td>
+            </tr>
+            <tr>
+                <td>Mass</td>
+                <td>M</td>
+                <td>kilogram (kg)</td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td>T</td>
+                <td>second (s)</td>
+            </tr>
+            <tr>
+                <td>Current</td>
+                <td>I</td>
+                <td>ampere (A)</td>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>Θ</td>
+                <td>kelvin (K)</td>
+            </tr>
+            <tr>
+                <td>Amount</td>
+                <td>N</td>
+                <td>mole (mol)</td>
+            </tr>
+            <tr>
+                <td>Luminous intensity</td>
+                <td>J</td>
+                <td>candela (cd)</td>
+            </tr>
+        </table>
+
+        <h3>Dimensional Analysis in Action</h3>
+
+        <h4>Check Equation Validity</h4>
+        <div class="equation">
+            v² = u² + 2as<br>
+            [L²T⁻²] = [L²T⁻²] + [LT⁻²][L]<br>
+            ✓ Consistent
+        </div>
+
+        <h4>Derive Relationships</h4>
+        <p>The period of a pendulum T must depend on length L, mass m, and gravity g. Dimensional analysis gives:</p>
+        <div class="equation">
+            T ~ √(L/g)<br>
+            (Mass doesn't appear—surprising but correct!)
+        </div>
+
+        <h4>Convert Units</h4>
+        <div class="equation">
+            Energy: [E] = ML²T⁻²<br>
+            1 joule = 1 kg·m²/s²
+        </div>
+
+        <h3>Buckingham π Theorem</h3>
+
+        <div class="key-insight">
+            <p>If a physical problem involves <strong>n</strong> variables with <strong>k</strong> independent dimensions, then there are <strong>n − k</strong> dimensionless groups that govern the physics.</p>
+        </div>
+
+        <h3>Dimensionless Numbers</h3>
+
+        <p>Ratios of similar quantities are dimensionless and often control system behavior:</p>
+
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Definition</th>
+                <th>Physical Meaning</th>
+            </tr>
+            <tr>
+                <td>Reynolds (Re)</td>
+                <td>ρvL/μ</td>
+                <td>Inertial/viscous forces (turbulence)</td>
+            </tr>
+            <tr>
+                <td>Mach (Ma)</td>
+                <td>v/c<sub>sound</sub></td>
+                <td>Speed relative to sound speed</td>
+            </tr>
+            <tr>
+                <td>Fine structure (α)</td>
+                <td>e²/(4πε₀ℏc)</td>
+                <td>EM coupling strength ≈ 1/137</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 13 of 14
+        </div>
+    </div>
+
+    <!-- Page 14: Summary -->
+    <div class="page">
+        <h2>13. Summary: Interconnections</h2>
+
+        <div class="theme-box">
+            <h3>The Unity of Physics</h3>
+            <p>These themes are not independent—they interweave throughout physics, reinforcing and explaining each other.</p>
+        </div>
+
+        <h3>Key Interconnections</h3>
+
+        <h4>1. Linearity ↔ Superposition ↔ Conservation</h4>
+        <p>Linear systems allow superposition. Superposition enables conservation laws (e.g., momentum adds in collisions because F = ma is linear).</p>
+
+        <h4>2. Symmetry → Conservation (Noether)</h4>
+        <p>Every continuous symmetry implies a conservation law. This connects abstract geometry to tangible physics.</p>
+
+        <h4>3. Feedback → Stability ↔ Linearity</h4>
+        <p>Negative feedback creates stability by linearizing around equilibrium. Positive feedback drives systems away from linearity into chaos.</p>
+
+        <h4>4. Local → Global</h4>
+        <p>Local conservation laws (differential form) integrate to give global conservation (total quantities).</p>
+
+        <h4>5. Quantization → Discreteness ↔ Integers ℤ</h4>
+        <p>Quantum mechanics restricts continuous classical variables to discrete sets indexed by integers (n, l, m).</p>
+
+        <h4>6. Rates of Change → Differential Equations</h4>
+        <p>Nearly all physics laws are statements about derivatives. Solving them gives time evolution.</p>
+
+        <h3>The Meta-Lesson</h3>
+
+        <div class="key-insight">
+            <p>Physics is not a catalogue of facts but a <strong>coherent framework</strong> built on a small number of deep principles. When you understand these core themes, seemingly disparate topics—optics, thermodynamics, quantum mechanics—reveal themselves as different manifestations of the same underlying ideas.</p>
+        </div>
+
+        <h3>Practical Value for IB Physics</h3>
+
+        <ul>
+            <li><strong>Problem-solving:</strong> Recognize which principle applies (conservation? superposition? dimensionality?)</li>
+            <li><strong>Conceptual understanding:</strong> See connections between topics (Why does Lenz's Law resemble Le Chatelier? Both are negative feedback!)</li>
+            <li><strong>Exam success:</strong> IB examiners reward insight into underlying principles, not just plug-and-chug</li>
+        </ul>
+
+        <div class="contrast-box">
+            <h4>From Memorization to Understanding</h4>
+            <p>Instead of memorizing 100 disconnected formulas, understand 10 core themes and <strong>derive</strong> what you need. Physics becomes a language you speak, not a script you recite.</p>
+        </div>
+
+        <h3>Final Thought</h3>
+
+        <p>These themes cut across all of physics because they reflect the <strong>structure of reality itself</strong>. They are not arbitrary human inventions but patterns woven into the fabric of nature. When you master them, you're not just learning physics—you're learning to think like nature thinks.</p>
+
+        <div class="footer">
+            Core Themes Across Physics | IB Physics | Page 14 of 14
+        </div>
+    </div>
+</body>
+</html>
